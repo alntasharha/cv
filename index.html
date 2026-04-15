@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amani Ntasharha Albin - Développeur Web & Designer</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="cv-container">
+        <!-- Header avec dégradé -->
+        <header class="cv-header">
+            <div class="lang-switcher">
+                <button class="lang-btn active" onclick="switchLang('fr')" id="btn-fr">FR</button>
+                <button class="lang-btn" onclick="switchLang('en')" id="btn-en">EN</button>
+            </div>
+            <h1>Amani Ntasharha Albin</h1>
+            <h2 class="lang-fr">DÉVELOPPEUR WEB & DESIGNER</h2>
+            <h2 class="lang-en" style="display:none;">WEB DEVELOPER & DESIGNER</h2>
+        </header>
+
+        <div class="cv-content">
+            <!-- Colonne gauche (sombre) -->
+            <aside class="cv-sidebar">
+                <div class="profile-photo">
+                    <div class="photo-frame">
+                        <img src="al.JPG" alt="Amani Ntasharha Albin">
+                    </div>
+                </div>
+
+                <section class="sidebar-section">
+                    <h3 class="lang-fr">PROFIL</h3>
+                    <h3 class="lang-en" style="display:none;">PROFILE</h3>
+                    <div class="divider"></div>
+                    <p class="lang-fr">Passionné par les technologies de l'information et le design, je combine créativité et expertise technique pour concevoir des solutions web innovantes. Autonome, rigoureux et toujours en veille technologique, je suis prêt à relever de nouveaux défis.</p>
+                    <p class="lang-en" style="display:none;">Passionate about information technology and design, I combine creativity and technical expertise to create innovative web solutions. Autonomous, rigorous, and always up-to-date with technology, I am ready to take on new challenges.</p>
+                </section>
+
+                <section class="sidebar-section">
+                    <h3 class="lang-fr">CONTACT</h3>
+                    <h3 class="lang-en" style="display:none;">CONTACT</h3>
+                    <div class="divider"></div>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-map-marker-alt"></i> AV Michombero N 8 Q/Nkafu / Kadutu Bukavu, DRC</li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:albinamani25@gmail.com" class="contact-link">albinamani25@gmail.com</a></li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+256780374310" class="contact-link">+256 780 374 310</a></li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+243981548052" class="contact-link">+243 981 548 052</a></li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="https://github.com/albinamani" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="mailto:albinamani25@gmail.com" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="#" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://wa.me/243981548052" target="_blank" rel="noopener noreferrer" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </section>
+
+                <section class="sidebar-section">
+                    <h3 class="lang-fr">CENTRES D'INTÉRÊT</h3>
+                    <h3 class="lang-en" style="display:none;">INTERESTS</h3>
+                    <div class="divider"></div>
+                    <div class="interests">
+                        <p class="lang-fr"><strong>TECHNOLOGIES:</strong> Intelligence artificielle, UI/UX Design, nouveaux frameworks</p>
+                        <p class="lang-en" style="display:none;"><strong>TECHNOLOGIES:</strong> Artificial intelligence, UI/UX Design, new frameworks</p>
+                        <p class="lang-fr"><strong>CRÉATIVITÉ:</strong> Design graphique, photographie, montage vidéo</p>
+                        <p class="lang-en" style="display:none;"><strong>CREATIVITY:</strong> Graphic design, photography, video editing</p>
+                        <p class="lang-fr"><strong>LOISIRS:</strong> Jeux vidéo, musique, veille technologique</p>
+                        <p class="lang-en" style="display:none;"><strong>HOBBIES:</strong> Video games, music, technology watch</p>
+                    </div>
+                </section>
+
+                <section class="sidebar-section">
+                    <h3 class="lang-fr">LANGUES</h3>
+                    <h3 class="lang-en" style="display:none;">LANGUAGES</h3>
+                    <div class="divider"></div>
+                    <div class="languages">
+                        <div class="language-item">
+                            <span class="lang-name">Français</span>
+                            <div class="lang-level">
+                                <span class="level-bar"><span class="level-fill" style="width: 100%;"></span></span>
+                                <span class="level-text lang-fr">Natif</span>
+                                <span class="level-text lang-en" style="display:none;">Native</span>
+                            </div>
+                        </div>
+                        <div class="language-item">
+                            <span class="lang-name">Anglais</span>
+                            <div class="lang-level">
+                                <span class="level-bar"><span class="level-fill" style="width: 75%;"></span></span>
+                                <span class="level-text lang-fr">Bon</span>
+                                <span class="level-text lang-en" style="display:none;">Good</span>
+                            </div>
+                        </div>
+                        <div class="language-item">
+                            <span class="lang-name">Swahili</span>
+                            <div class="lang-level">
+                                <span class="level-bar"><span class="level-fill" style="width: 60%;"></span></span>
+                                <span class="level-text lang-fr">Assez bon</span>
+                                <span class="level-text lang-en" style="display:none;">Fair</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </aside>
+
+            <!-- Colonne droite (claire) -->
+            <main class="cv-main">
+                <section class="main-section">
+                    <h3 class="lang-fr">FORMATION</h3>
+                    <h3 class="lang-en" style="display:none;">EDUCATION</h3>
+                    <div class="divider-light"></div>
+                    <ul class="formation-list">
+                        <li><span class="year">2023</span> - Bachelor in Information Technology - Cavendish University Uganda, Kampala</li>
+                        <li><span class="year">2023</span> - Full Stack Web Development Bootcamp | Udemy</li>
+                        <li><span class="year">2022</span> - UI/UX Design Fundamentals | Coursera (Google)</li>
+                        <li><span class="year">2022</span> - React & Node.js Certification - Meta</li>
+                        <li class="lang-fr"><span class="year">2021</span> - Développement Frontend | freeCodeCamp</li>
+                        <li class="lang-en" style="display:none;"><span class="year">2021</span> - Frontend Development | freeCodeCamp</li>
+                    </ul>
+                </section>
+
+                <section class="main-section">
+                    <h3 class="lang-fr">EXPÉRIENCES</h3>
+                    <h3 class="lang-en" style="display:none;">EXPERIENCE</h3>
+                    <div class="divider-light"></div>
+                    
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h4 class="lang-fr">DÉVELOPPEUR WEB & DESIGNER</h4>
+                            <h4 class="lang-en" style="display:none;">WEB DEVELOPER & DESIGNER</h4>
+                            <span class="date lang-fr">2023 - Présent</span>
+                            <span class="date lang-en" style="display:none;">2023 - Present</span>
+                        </div>
+                        <p class="company">Freelance</p>
+                        <p class="desc lang-fr">Conception et développement de sites web modernes et applications pour divers clients locaux et internationaux.</p>
+                        <p class="desc lang-en" style="display:none;">Design and development of modern websites and applications for various local and international clients.</p>
+                        <ul class="experience-details">
+                            <li class="lang-fr">Création de sites vitrines responsive avec HTML, CSS, JavaScript et React</li>
+                            <li class="lang-en" style="display:none;">Creation of responsive showcase websites with HTML, CSS, JavaScript and React</li>
+                            <li class="lang-fr">Conception d'interfaces utilisateur (UI) et expérience utilisateur (UX)</li>
+                            <li class="lang-en" style="display:none;">User Interface (UI) and User Experience (UX) design</li>
+                            <li class="lang-fr">Développement backend avec Node.js et bases de données MongoDB/PostgreSQL</li>
+                            <li class="lang-en" style="display:none;">Backend development with Node.js and MongoDB/PostgreSQL databases</li>
+                            <li class="lang-fr">Optimisation SEO et performance des sites web</li>
+                            <li class="lang-en" style="display:none;">SEO and website performance optimization</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h4 class="lang-fr">DESIGNER UI/UX</h4>
+                            <h4 class="lang-en" style="display:none;">UI/UX DESIGNER</h4>
+                            <span class="date">2022 - 2023</span>
+                        </div>
+                        <p class="company lang-fr">Agence Web Digitale - Bukavu</p>
+                        <p class="company lang-en" style="display:none;">Digital Web Agency - Bukavu</p>
+                        <p class="desc lang-fr">Conception de maquettes et prototypes pour applications mobiles et sites web.</p>
+                        <p class="desc lang-en" style="display:none;">Design of mockups and prototypes for mobile applications and websites.</p>
+                        <ul class="experience-details">
+                            <li class="lang-fr">Création de wireframes et prototypes interactifs sur Figma</li>
+                            <li class="lang-en" style="display:none;">Creation of wireframes and interactive prototypes on Figma</li>
+                            <li class="lang-fr">Design system et chartes graphiques pour marques locales</li>
+                            <li class="lang-en" style="display:none;">Design system and graphic charters for local brands</li>
+                            <li class="lang-fr">Collaboration avec les développeurs pour l'intégration des designs</li>
+                            <li class="lang-en" style="display:none;">Collaboration with developers for design integration</li>
+                            <li class="lang-fr">Tests utilisateurs et amélioration continue des interfaces</li>
+                            <li class="lang-en" style="display:none;">User testing and continuous interface improvement</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h4 class="lang-fr">DÉVELOPPEUR FRONTEND</h4>
+                            <h4 class="lang-en" style="display:none;">FRONTEND DEVELOPER</h4>
+                            <span class="date">2021 - 2022</span>
+                        </div>
+                        <p class="company">TechStart SARL</p>
+                        <p class="desc lang-fr">Développement d'interfaces frontend pour applications web et maintenance de sites existants.</p>
+                        <p class="desc lang-en" style="display:none;">Development of frontend interfaces for web applications and maintenance of existing sites.</p>
+                        <ul class="experience-details">
+                            <li class="lang-fr">Développement de composants React et intégration API REST</li>
+                            <li class="lang-en" style="display:none;">React component development and REST API integration</li>
+                            <li class="lang-fr">Styling avec CSS, Sass et Tailwind CSS</li>
+                            <li class="lang-en" style="display:none;">Styling with CSS, Sass and Tailwind CSS</li>
+                            <li class="lang-fr">Optimisation responsive et compatibilité cross-browser</li>
+                            <li class="lang-en" style="display:none;">Responsive optimization and cross-browser compatibility</li>
+                            <li class="lang-fr">Participation aux revues de code et méthodologies Agile</li>
+                            <li class="lang-en" style="display:none;">Participation in code reviews and Agile methodologies</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h4 class="lang-fr">STAGIAIRE DÉVELOPPEUR WEB</h4>
+                            <h4 class="lang-en" style="display:none;">WEB DEVELOPER INTERN</h4>
+                            <span class="date">2020 - 2021</span>
+                        </div>
+                        <p class="company lang-fr">Centre Informatique Régional</p>
+                        <p class="company lang-en" style="display:none;">Regional Computer Center</p>
+                        <p class="desc lang-fr">Stage pratique en développement web et support technique.</p>
+                        <p class="desc lang-en" style="display:none;">Practical internship in web development and technical support.</p>
+                        <ul class="experience-details">
+                            <li class="lang-fr">Développement d'une application de gestion de stock en PHP/MySQL</li>
+                            <li class="lang-en" style="display:none;">Development of an inventory management application in PHP/MySQL</li>
+                            <li class="lang-fr">Maintenance et mise à jour de sites web existants</li>
+                            <li class="lang-en" style="display:none;">Maintenance and updating of existing websites</li>
+                            <li class="lang-fr">Support technique aux utilisateurs et formation</li>
+                            <li class="lang-en" style="display:none;">Technical support to users and training</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="main-section">
+                    <h3 class="lang-fr">COMPÉTENCES</h3>
+                    <h3 class="lang-en" style="display:none;">SKILLS</h3>
+                    <div class="divider-light"></div>
+                    
+                    <div class="skill-badges-container">
+                        <h4 class="lang-fr">Frontend</h4>
+                        <h4 class="lang-en" style="display:none;">Frontend</h4>
+                        <div class="skill-badges">
+                            <span class="badge">HTML5</span>
+                            <span class="badge">CSS3</span>
+                            <span class="badge">JavaScript</span>
+                            <span class="badge">React.js</span>
+                            <span class="badge">Vue.js</span>
+                            <span class="badge">Tailwind</span>
+                            <span class="badge">Sass</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-badges-container">
+                        <h4 class="lang-fr">Backend</h4>
+                        <h4 class="lang-en" style="display:none;">Backend</h4>
+                        <div class="skill-badges">
+                            <span class="badge">Node.js</span>
+                            <span class="badge">Express</span>
+                            <span class="badge">Python</span>
+                            <span class="badge">PHP</span>
+                            <span class="badge">REST API</span>
+                            <span class="badge">GraphQL</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-badges-container">
+                        <h4 class="lang-fr">Bases de données</h4>
+                        <h4 class="lang-en" style="display:none;">Databases</h4>
+                        <div class="skill-badges">
+                            <span class="badge">MongoDB</span>
+                            <span class="badge">PostgreSQL</span>
+                            <span class="badge">MySQL</span>
+                            <span class="badge">Firebase</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-badges-container">
+                        <h4>Design & Tools</h4>
+                        <div class="skill-badges">
+                            <span class="badge">Figma</span>
+                            <span class="badge">Adobe XD</span>
+                            <span class="badge">Photoshop</span>
+                            <span class="badge">Git/GitHub</span>
+                            <span class="badge">VS Code</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-badges-container">
+                        <h4 class="lang-fr">Méthodologies</h4>
+                        <h4 class="lang-en" style="display:none;">Methodologies</h4>
+                        <div class="skill-badges">
+                            <span class="badge">Agile/Scrum</span>
+                            <span class="badge">UI/UX Design</span>
+                            <span class="badge">Responsive</span>
+                            <span class="badge">SEO</span>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <!-- Footer avec bouton télécharger -->
+    <footer class="cv-footer">
+        <div class="download-section">
+            <button class="download-btn" onclick="window.print()">
+                <i class="fas fa-download"></i>
+                <span class="lang-fr">Télécharger CV (PDF)</span>
+                <span class="lang-en" style="display:none;">Download CV (PDF)</span>
+            </button>
+        </div>
+        <p class="copyright">albinamani25@gmail.com<span class="lang-fr"> Passionné par les technologies de l'information et le design.</span><span class="lang-en" style="display:none;">All rights reserved.</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
